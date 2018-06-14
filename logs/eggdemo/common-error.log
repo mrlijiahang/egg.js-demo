@@ -1,0 +1,12 @@
+2018-06-14 12:31:43,803 ERROR 5880 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1021:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1360:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'C:\\Users\\Administrator\\Desktop\\eggdemo\\app\\server\\server.js'
+name: 'EPERMError'
+pid: 5880
+hostname: PC201703111943
+
