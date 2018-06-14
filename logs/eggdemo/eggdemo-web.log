@@ -1,0 +1,64 @@
+2018-06-14 15:20:18,474 WARN 5460 [-/::1/-/12ms POST /w] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-14 15:20:18,475 WARN 5460 [-/::1/-/13ms POST /w] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 5460
+hostname: PC201703111943
+
+2018-06-14 15:23:08,252 WARN 8432 [-/::1/-/19ms POST /w] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-14 15:23:08,254 WARN 8432 [-/::1/-/20ms POST /w] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 8432
+hostname: PC201703111943
+
+2018-06-14 15:23:37,376 WARN 8432 [-/::1/-/1ms POST /w] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-14 15:23:37,376 WARN 8432 [-/::1/-/1ms POST /w] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 8432
+hostname: PC201703111943
+
+2018-06-14 15:24:25,043 WARN 7816 [-/::1/-/19ms POST /w] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-14 15:24:25,045 WARN 7816 [-/::1/-/21ms POST /w] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7816
+hostname: PC201703111943
+

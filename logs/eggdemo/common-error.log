@@ -10,3 +10,18 @@ name: 'EPERMError'
 pid: 5880
 hostname: PC201703111943
 
+2018-06-14 14:41:10,300 ERROR 1112 [-/::1/-/7ms GET /] nodejs.ReferenceError: ctx is not defined
+    at NewController.index (C:\Users\Administrator\Desktop\eggdemo\app\controller\new.js:4:35)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 1112
+hostname: PC201703111943
+

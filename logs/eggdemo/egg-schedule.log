@@ -4,3 +4,11 @@
 2018-06-14 12:11:58,769 INFO 5420 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
 2018-06-14 12:29:58,193 INFO 5880 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-15 00:00:00.000
 2018-06-14 12:29:58,194 INFO 5880 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
+2018-06-14 14:05:16,818 INFO 7500 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-15 00:00:00.000
+2018-06-14 14:05:16,819 INFO 7500 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
+2018-06-14 14:06:43,144 INFO 7936 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-15 00:00:00.000
+2018-06-14 14:06:43,145 INFO 7936 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
+2018-06-14 15:09:18,334 INFO 5760 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-15 00:00:00.000
+2018-06-14 15:09:18,335 INFO 5760 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
+2018-06-14 15:10:01,306 INFO 8756 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-15 00:00:00.000
+2018-06-14 15:10:01,307 INFO 8756 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-15 00:00:01.000
