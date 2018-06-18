@@ -1,0 +1,369 @@
+2018-06-14 12:31:43,803 ERROR 5880 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1021:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1360:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'C:\\Users\\Administrator\\Desktop\\eggdemo\\app\\server\\server.js'
+name: 'EPERMError'
+pid: 5880
+hostname: PC201703111943
+
+2018-06-14 14:41:10,300 ERROR 1112 [-/::1/-/7ms GET /] nodejs.ReferenceError: ctx is not defined
+    at NewController.index (C:\Users\Administrator\Desktop\eggdemo\app\controller\new.js:4:35)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 1112
+hostname: PC201703111943
+
+2018-06-17 00:18:19,081 ERROR 1992 [-/::1/-/8ms GET /3] nodejs.ReferenceError: false1 is not defined
+    at HomeController.create (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:35:32)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 1992
+hostname: PC201703111943
+
+2018-06-17 00:18:19,466 ERROR 1992 [-/::1/-/2ms GET /3] nodejs.ReferenceError: false1 is not defined
+    at HomeController.create (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:35:32)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 1992
+hostname: PC201703111943
+
+2018-06-17 00:18:21,387 ERROR 1992 [-/::1/-/1ms GET /3] nodejs.ReferenceError: false1 is not defined
+    at HomeController.create (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:35:32)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 1992
+hostname: PC201703111943
+
+2018-06-17 00:34:54,900 ERROR 6572 [-/::1/-/10ms GET /3] nodejs.TypeError: Cannot read property 'create' of undefined
+    at HomeController.create1 (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:48:44)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6572
+hostname: PC201703111943
+
+2018-06-17 00:52:12,139 ERROR 3240 [-/::1/-/12ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3240
+hostname: PC201703111943
+
+2018-06-17 00:52:13,811 ERROR 3240 [-/::1/-/2ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3240
+hostname: PC201703111943
+
+2018-06-17 00:52:17,156 ERROR 3240 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3240
+hostname: PC201703111943
+
+2018-06-17 00:52:19,922 ERROR 3240 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 3240
+hostname: PC201703111943
+
+2018-06-17 00:53:03,068 ERROR 7268 [-/::1/-/12ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:03,740 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:04,035 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:04,242 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:04,523 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:05,130 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:05,666 ERROR 7268 [-/::1/-/1ms GET /3] nodejs.ReferenceError: key is not defined
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:78:25)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7268
+hostname: PC201703111943
+
+2018-06-17 00:53:34,596 ERROR 5904 [-/::1/-/8ms GET /3] nodejs.TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:168:26)
+    at crypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:78:23)
+    at Keygrip.encrypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:29:12)
+    at Cookies.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\cookies.js:102:55)
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:73:21)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 5904
+hostname: PC201703111943
+
+2018-06-17 00:53:35,106 ERROR 5904 [-/::1/-/1ms GET /3] nodejs.TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:168:26)
+    at crypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:78:23)
+    at Keygrip.encrypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:29:12)
+    at Cookies.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\cookies.js:102:55)
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:73:21)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 5904
+hostname: PC201703111943
+
+2018-06-17 00:53:35,706 ERROR 5904 [-/::1/-/1ms GET /3] nodejs.TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:168:26)
+    at crypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:78:23)
+    at Keygrip.encrypt (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\keygrip.js:29:12)
+    at Cookies.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-cookies\lib\cookies.js:102:55)
+    at HomeController.add (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:73:21)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 5904
+hostname: PC201703111943
+
+2018-06-17 01:17:21,330 ERROR 8968 [-/::1/-/10ms GET /3?password=123456] nodejs.Error: this.session can only be set as null or an object.
+    at ContextSession.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\lib\context.js:58:11)
+    at Object.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:127:31)
+    at HomeController.add1 (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:90:26)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+
+pid: 8968
+hostname: PC201703111943
+
+2018-06-17 01:17:53,253 ERROR 9212 [-/::1/-/11ms GET /3?password=123456] nodejs.Error: this.session can only be set as null or an object.
+    at ContextSession.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\lib\context.js:58:11)
+    at Object.set (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-session\index.js:127:31)
+    at HomeController.add1 (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:90:26)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+
+pid: 9212
+hostname: PC201703111943
+
+2018-06-18 19:46:20,016 ERROR 4652 [-/::1/-/110ms GET /1/:123] nodejs.TypeError: Cannot read property 'find' of undefined
+    at HomeController.show (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:98:53)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 4652
+hostname: PC201703111943
+
+2018-06-18 20:24:55,927 ERROR 8648 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1021:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1360:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'C:\\Users\\Administrator\\Desktop\\eggdemo\\app\\view\\news'
+name: 'EPERMError'
+pid: 8648
+hostname: PC201703111943
+
+2018-06-18 20:26:25,737 ERROR 10188 [-/::1/-/6ms GET /] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at PostController.index (C:\Users\Administrator\Desktop\eggdemo\app\controller\post.js:6:48)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10188
+hostname: PC201703111943
+

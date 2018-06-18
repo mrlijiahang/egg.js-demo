@@ -5,5 +5,6 @@ module.exports =app =>{
         name:{type:String},
         pwd:{type:String}
     });
-    return mongoose.model('Post', PostSchema)
+    // 映射表关系
+    return mongoose.model('stus', PostSchema)
 }

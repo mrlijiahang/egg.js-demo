@@ -11,7 +11,7 @@
   },
   "mongoose": {
     "url": "C:\\Users\\Administrator\\Desktop\\eggdemo\\config\\config.default.js",
-    "options": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "options": "C:\\Users\\Administrator\\Desktop\\eggdemo\\config\\config.default.js",
     "loadModel": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
     "app": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
     "agent": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js"
