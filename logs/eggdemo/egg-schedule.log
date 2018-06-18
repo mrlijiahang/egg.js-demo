@@ -18,3 +18,5 @@
 2018-06-17 00:10:23,564 INFO 5352 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-18 00:00:01.000
 2018-06-17 00:29:40,347 INFO 2484 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-18 00:00:00.000
 2018-06-17 00:29:40,348 INFO 2484 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-18 00:00:01.000
+2018-06-18 19:04:39,128 INFO 8648 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-19 00:00:00.000
+2018-06-18 19:04:39,129 INFO 8648 [Timer] C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-19 00:00:01.000

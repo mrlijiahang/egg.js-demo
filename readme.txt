@@ -1,1 +1,7 @@
-2018.6.16
+npm install  
+
+npm run  dev 
+
+localhost:7001
+
+OK  let us  do  it

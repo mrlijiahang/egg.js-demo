@@ -325,3 +325,45 @@ hostname: PC201703111943
 pid: 9212
 hostname: PC201703111943
 
+2018-06-18 19:46:20,016 ERROR 4652 [-/::1/-/110ms GET /1/:123] nodejs.TypeError: Cannot read property 'find' of undefined
+    at HomeController.show (C:\Users\Administrator\Desktop\eggdemo\app\controller\home.js:98:53)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 4652
+hostname: PC201703111943
+
+2018-06-18 20:24:55,927 ERROR 8648 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:1021:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1360:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'C:\\Users\\Administrator\\Desktop\\eggdemo\\app\\view\\news'
+name: 'EPERMError'
+pid: 8648
+hostname: PC201703111943
+
+2018-06-18 20:26:25,737 ERROR 10188 [-/::1/-/6ms GET /] nodejs.TypeError: Cannot read property 'findAll' of undefined
+    at PostController.index (C:\Users\Administrator\Desktop\eggdemo\app\controller\post.js:6:48)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (C:\Users\Administrator\Desktop\eggdemo\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\eggdemo\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10188
+hostname: PC201703111943
+
