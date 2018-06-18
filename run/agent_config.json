@@ -145,6 +145,13 @@
       "lstripBlocks": false,
       "cache": false
     },
+    "mongoose": {
+      "url": "mongodb://127.0.0.1:27017/stus",
+      "options": {},
+      "loadModel": true,
+      "app": true,
+      "agent": false
+    },
     "env": "local",
     "name": "eggdemo",
     "keys": "<String len: 9>",
@@ -165,7 +172,9 @@
       "license": "ISC",
       "dependencies": {
         "egg": "^2.9.0",
-        "egg-view-nunjucks": "^2.2.0"
+        "egg-mongoose": "^2.2.1",
+        "egg-view-nunjucks": "^2.2.0",
+        "mongoose": "^5.1.5"
       },
       "devDependencies": {
         "egg-bin": "^4.7.0"
@@ -427,6 +436,17 @@
       "from": "C:\\Users\\Administrator\\Desktop\\eggdemo\\config\\plugin.js",
       "path": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
+    },
+    "mongoose": {
+      "enable": true,
+      "package": "egg-mongoose",
+      "name": "mongoose",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "C:\\Users\\Administrator\\Desktop\\eggdemo\\config\\plugin.js",
+      "path": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose",
+      "version": "2.2.1"
     }
   }
 }

@@ -9,6 +9,13 @@
     "cache": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "mongoose": {
+    "url": "C:\\Users\\Administrator\\Desktop\\eggdemo\\config\\config.default.js",
+    "options": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "loadModel": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "app": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js",
+    "agent": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-mongoose\\config\\config.default.js"
+  },
   "session": {
     "maxAge": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-session\\config\\config.default.js",
     "key": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg-session\\config\\config.default.js",
@@ -161,7 +168,9 @@
     "license": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js"
+      "egg-mongoose": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js",
+      "mongoose": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
       "egg-bin": "C:\\Users\\Administrator\\Desktop\\eggdemo\\node_modules\\egg\\config\\config.default.js"
