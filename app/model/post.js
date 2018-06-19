@@ -5,6 +5,6 @@ module.exports =app =>{
         name:{type:String},
         pwd:{type:String}
     });
-    // 映射表关系
+    // 映射表关系原来为Post
     return mongoose.model('stus', PostSchema)
 }
